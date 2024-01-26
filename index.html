@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap</title>
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
+</head>
+<body>
     <style>
         .navbar-nav .nav-link.active {
             color: #fff;
@@ -16,7 +18,7 @@
 
         section {
             height: 100vh;
-            background-color: #ffffff;
+            background-color: #fff;
             padding-top: 70px;
         }
 
@@ -26,9 +28,6 @@
             left: 0;
             background-color: #fff;
         }
-
-
-
     </style>
 </head>
 <body>
@@ -64,86 +63,52 @@
     </section>
     <section id="contato">
         <h2>contato</h2>
-        <div class="col-4">
-            <div class="card">
-                <div class="card-header">
-                    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div data-bs-interval="2000" class="carousel-item active ">
-                                <img class="" src="https://cdn.pixabay.com/photo/2023/05/25/07/38/antarctica-8016562_1280.jpg">
-                                <div class="casousel-caption">
-                                    <h2></h2>
-                                </div>
-                            </div>
-                            <div data-bs-interval="2000" class="carousel-item">
-                                <img class="" src="https://cdn.pixabay.com/photo/2023/12/19/20/23/hazelnut-8458335_1280.jpg">
-                                <div class="casousel-caption">
-                                    <h2></h2>
-                                </div>
-                            </div>
-                            <div data-bs-interval="2000" class="carousel-item">
-                                <img class="" src="https://cdn.pixabay.com/photo/2023/12/13/06/40/cat-8446390_1280.jpg" alt="sei la vei" >
-                                <div class="casousel-caption">
-                                    <h3></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="produtos">
-        <h2>produtos</h2>
-        <div class="container">
-            <nav class="nav nav-tabs">
-                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link" type="button">
-                    <h1> luiz felipe </h1>
+        <h1> bootstrap - cards</h1>
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <div class="card">
+                <div class="card" style="width: 500px;">
                     <div class="card-header">
                         cabeçalho do header
                     </div>
-                    <img src="https://cdn.pixabay.com/photo/2023/05/25/07/38/antarctica-8016562_1280.jpg">
-                    <div class="card-body">
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-img-overlay">
                         <h4 class="card-title">titulo do card</h4>
                         <h5 class="card-subtitle">subtitulo do card</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolores sapiente sint earum atque, id facere similique velit necessitatibus eius nostrum praesentium
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit veniam animi optio quam deserunt incidunt vero eaque numquam
                         </p>
                         <a href="#" class="btn btn-primary">botao link</a>
                     </div>
                 </div>
             </div>
             <div class="col-4">
-                <div class="card">
+                <div class="card" style="width: 500px;">
                     <div class="card-header">
                         cabeçalho do header
                     </div>
-                    <img src="https://cdn.pixabay.com/photo/2023/12/19/20/23/hazelnut-8458335_1280.jpg">
-                    <div class="card-body">
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-img-overlay">
                         <h4 class="card-title">titulo do card</h4>
                         <h5 class="card-subtitle">subtitulo do card</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolores sapiente sint earum atque, id facere similique velit necessitatibus eius nostrum praesentium
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit veniam animi optio quam deserunt incidunt vero eaque numquam
                         </p>
                         <a href="#" class="btn btn-primary">botao link</a>
                     </div>
-                    </div>
                 </div>
+            </div>
             <div class="col-4">
-                <div class="card">
+                <div class="card" style="width: 500px;">
                     <div class="card-header">
                         cabeçalho do header
                     </div>
-                    <img src="https://cdn.pixabay.com/photo/2023/12/13/06/40/cat-8446390_1280.jpg">
-                    <div class="card-body">
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-img-overlay">
                         <h4 class="card-title">titulo do card</h4>
                         <h5 class="card-subtitle">subtitulo do card</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolores sapiente sint earum atque, id facere similique velit necessitatibus eius nostrum praesentium
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit veniam animi optio quam deserunt incidunt vero eaque numquam
                         </p>
                         <a href="#" class="btn btn-primary">botao link</a>
                     </div>
@@ -151,20 +116,36 @@
             </div>
         </div>
     </div>
-                </button>
-            </nav>
-            <div class="tab-content">
-                <div class="tab-pane active" id="aba1">
-                    
-                </div>
-                <div class="tab-pane" id="aba2">
-                    bermuda
-                </div>
-                <div class="tab-pane" id="aba3">
-                    chinelo
+    </section>
+    <section id="produtos">
+        <h2>produtos</h2>
+            <div class="col-4  mx-auto d-block">
+                <div class="card  mx-auto d-block">
+                     <div class="card-header  mx-auto d-block">
+                        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="1000" class="carousel-item active ">
+                                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2023/09/09/09/03/cheetah-8242729_1280.png">
+                                        <div class="casousel-caption">
+                                            </div>
+                                            </div>
+                                            <div data-bs-interval="1000" class="carousel-item">
+                                            <img class="img-fluid" src="https://cdn.pixabay.com/photo/2023/09/13/07/25/people-8250302_1280.jpg">
+                                            <div class="casousel-caption">
+                                            </div>
+                                            </div>
+                                            <div data-bs-interval="1000" class="carousel-item">
+                                         <img class="img-fluid" src="https://cdn.pixabay.com/photo/2023/04/09/17/23/flower-7911919_1280.jpg">
+                                        <div class="casousel-caption">
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
     <section id="promocoes">
         <h2>promoçoes</h2>
