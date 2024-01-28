@@ -34,7 +34,7 @@
     <header id="cabecalho">
         <div class="navbar navbar-expand-lg">
             <div class="container">
-                <h1>titulo do site</h1>
+                <h1>Ebac Bootstrap</h1>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -59,19 +59,45 @@
     </header>
 <div data-bs-spy="scroll" data-bs-target="#cabecalho" >
     <section id="inicio">
-        <h2>inicio</h2>
+        <h2>Produtos A Mostra</h2>
+        <div class="col-4  mx-auto d-block">
+            <div class="card  mx-auto d-block">
+                 <div class="card-header  mx-auto d-block">
+                    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="1000" class="carousel-item active ">
+                                <img class="img-fluid" src="https://static.cruzeiro.com.br/produtos/camisa-1-cruzeiro-2223-masculina/08/3ZP-7874-008/3ZP-7874-008_zoom1.jpg?ts=1691187277&ims=544x">
+                                    <div class="casousel-caption">
+                                        </div>
+                                        </div>
+                                        <div data-bs-interval="1000" class="carousel-item">
+                                        <img class="img-fluid" src="https://outly-store.com/cdn/shop/products/Myproject-1_19_600x.jpg?v=1694441075">
+                                        <div class="casousel-caption">
+                                        </div>
+                                        </div>
+                                        <div data-bs-interval="1000" class="carousel-item">
+                                     <img class="img-fluid" src="https://cdn.dooca.store/28377/products/camiseta-nike-dry-fit-masculina-azul-marinho-bv6883-410-a_620x620+fill_ffffff.jpg?v=1671823802">
+                                    <div class="casousel-caption">
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
-    <section id="contato">
-        <h2>contato</h2>
-        <h1> bootstrap - cards</h1>
+    <section id="produtos">
+        <h2>produtos</h2>
+        <h1> Produos A Venda</h1>
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                <div class="card" style="">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
                     <div class="card-header">
-                        titulo do card
+                        Camisa do cruzeiro
                     </div>
-                    <img src="https://via.placeholder.com/100x100"/>
+                    <img src="https://static.cruzeiro.com.br/produtos/camisa-1-cruzeiro-2223-masculina/08/3ZP-7874-008/3ZP-7874-008_zoom1.jpg?ts=1691187277&ims=544x"/>
                     <div class="card-img-overlay">
                         <br/>
                         <p class="card-text">
@@ -81,12 +107,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
                     <div class="card-header">
-                        titulo do card
+                        Camisa Masculina Paradise
                     </div>
-                    <img src="https://via.placeholder.com/100x100"/>
+                    <img src="https://outly-store.com/cdn/shop/products/Myproject-1_19_600x.jpg?v=1694441075"/>
                     <div class="card-img-overlay">
                         <br/>
                         <p class="card-text">
@@ -97,12 +123,12 @@
                 </div>
             </div>
             <br/>
-            <div class="col-4">
-                <div class="card" style="">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
                     <div class="card-header">
-                        titulo do card
+                        CAMISETA NIKE DRI- FIT MASCULINA
                     </div>
-                    <img src="https://via.placeholder.com/100x100"/>
+                    <img src="https://cdn.dooca.store/28377/products/camiseta-nike-dry-fit-masculina-azul-marinho-bv6883-410-a_620x620+fill_ffffff.jpg?v=1671823802"/>
                     <div class="card-img-overlay">
                         <br/>
                         <p class="card-text">
@@ -119,6 +145,7 @@
             </div>
         </div>
     </div>
+    </section>
     <script src="/lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
